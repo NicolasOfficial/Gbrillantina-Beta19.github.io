@@ -1,0 +1,60 @@
+
+
+/*
+    
+.fondoc1{
+    
+    background-image: url(imagenes-laser/fondo-catalogo-general.jpg);
+    height: 20em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+       
+    }
+
+  */
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  
+  .fondoc1 {
+    height: 100vh; /* Full viewport height */
+    background-image: url('imagenes-laser/fondo-catalogo-general.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed; /* Default to fixed for desktop */
+  }
+  
+  @media (max-width: 768px) {
+    .fondoc1 {
+        background-attachment: scroll; /* Change to scroll on mobile devices */
+        background-size: cover; /* Ensure the background covers the element */
+        background-position: center; /* Center the background image */
+    }
+  }
+ 
+  
+  
+    .site-header {
+      background-color: rgba(134, 134, 134, 0.271);
+      -webkit-backdrop-filter: saturate(80%) blur(5px);
+      backdrop-filter: saturate(80%) blur(5px);
+    }
+    .site-header a {
+      color: #000000e2;
+      transition: color .15s ease-in-out;
+    }
+    .site-header a:hover {
+      color: rgb(255, 212, 21);
+      text-decoration: none;
+    }
+    .site-header h5 {
+      color:  rgb(255, 212, 21);
+      
+    }

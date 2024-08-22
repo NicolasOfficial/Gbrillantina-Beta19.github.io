@@ -1,0 +1,13 @@
+@font-face{
+    font-family: arch;
+    src: url(tipografia/Lexend-Medium.ttf);
+
+}
+
+h1{
+    font-family: arch;
+}
+
+.texto-justificado{
+text-align: justify;
+}

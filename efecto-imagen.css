@@ -1,0 +1,14 @@
+
+
+.sub-2 {
+    margin: auto;
+   
+
+}
+
+.sub-2:hover {
+    transform: scale(1.1);
+    transition: 1s;
+
+}
+

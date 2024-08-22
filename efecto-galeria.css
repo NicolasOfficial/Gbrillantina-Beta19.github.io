@@ -1,0 +1,154 @@
+
+/* styles.css 
+.catalog.blur {
+    filter: blur(5px);
+}
+
+.product {
+    
+    cursor: pointer;
+}
+
+
+
+.product-details {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(225, 225, 225, 0.644);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    max-height: 90%;
+    overflow-y: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translate(-50%, -40%);
+}
+
+.product-details.show {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.product-details img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+#close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+#close-button:hover {
+    background-color: darkred;
+}
+
+body.modal-open {
+    overflow: hidden;
+}
+
+*/
+
+
+
+.catalog.blur {
+    filter: blur(5px);
+}
+
+.product {
+    
+    cursor: pointer;
+}
+
+
+
+.product-details {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(225, 225, 225, 0.644);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+    width: 90%;
+    max-width: 450px;
+    text-align: center;
+    max-height: 90%;
+    overflow-y: auto;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    transform: translate(-50%, -40%);
+}
+
+.product-details.show {
+    opacity: 1;
+    transform: translate(-50%, -50%);
+}
+
+.product-details img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+#close-button,
+#more-info-button {
+    position: absolute;
+    background-color:  #ffc117;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1001;
+    
+}
+
+#close-button {
+    top: 10px;
+    right: 10px;
+}
+
+#close-button:hover,
+#more-info-button:hover {
+    background-color: darkred;
+}
+
+#more-info-button:hover {
+    background-color: rgb(0, 179, 6);
+}
+
+#more-info-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-decoration: none;
+    padding: 10px;
+    background-color:  #ffc117;
+    color: white;
+    border: none;
+    cursor: pointer;
+    z-index: 1001;
+}
+
+
+body.modal-open {
+    overflow: hidden;
+}
+

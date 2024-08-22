@@ -1,0 +1,70 @@
+
+/*
+.fondo{
+    
+  background-image: url(imagenes-laser/fondo-base-1.jpg);
+  height: 20em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  
+  
+       
+    }
+
+ */
+
+ 
+ 
+ body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+
+.fondo {
+  height: 100vh; 
+  background-image: url('imagenes-laser/fondo-base-1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; 
+}
+
+@media (max-width: 768px) {
+  .fondo {
+      background-attachment: scroll; 
+      background-size: cover; 
+      background-position: center; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+    .site-header {
+      background-color: rgba(255, 210, 98, 0.075);
+     -webkit-backdrop-filter: saturate(80%) blur(5px);
+     backdrop-filter: saturate(80%) blur(5px);
+   }
+   .site-header a {
+     color: #ffffff;
+     transition: color .15s ease-in-out;
+   }
+   .site-header a:hover {
+     color: #ffc117;
+     text-decoration: none;
+   }
+   .site-header h5 {
+     color:  #ffc117;
+     
+   }
+
